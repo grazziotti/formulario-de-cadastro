@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="assets/css/style.css" /></head>
+<body>
+    <div class="register-area">
+        <h1>Cadastre-se</h1>
+        <form method="POST">
+            <div class="name-area">
+                <input type="text" name="nome" placeholder="Nome" />
+                <input type="text" name="sobrenome" placeholder="Sobrenome" />
+            </div>
+            <input type="email" placeholder="E-mail" />
+            <input type="password" placeholder="Nova senha" />
+            <span>Data de nascimento:</span>
+            <div class="birthday-area">
+                <input type="number" min="1" max="31" placeholder="Dia" />
+                <input type="number" min="1" max="12" placeholder="Mês" />
+                <input type="number" min="1" max="2021" placeholder="Ano" />
+            </div>
+            <span>Sexo:</span>
+            <div class="Gender-area">
+                <label>
+                    <input type="radio" name="gender" />
+                    Masculino 
+                </label>
+                <label>
+                    <input type="radio" name="gender" />
+                    Feminino
+                </label>
+            </div>
+            <input type="submit" value="Cadastrar" />
+        </form>
+        <span>Já possui uma conta? <a href="../login/index.html">Fazer Login</a></span>
+    </div>
+</body>
+</html>
