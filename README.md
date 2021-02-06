@@ -6,12 +6,20 @@
     <img src="assets/images/page.png">
 </h1>
 
-<h2>Descrição</h2>
-<p>Essa é a minha resolução para um exercício que foi proposto no curso de HTML e CSS da B7Web, O desafio era fazer um formulário.</p>
+<h2>Sobre</h2>
+Essa é a minha solução para um exercício do curso de HTML e CSS da B7Web, O desafio era fazer um formulário.
+ 
+---
 
-_______________________________________________________________________________________________________________________
-<h2>Tecnologias usadas</h2>
+<h2>Tecnologias utilizadas</h2>
+
 <ul>
     <li>HTML5</li>
     <li>CSS3</li>
 </ul>
+
+---
+
+<h3 align="center">
+    <a href="https://grazziotti.github.io/formulario-de-cadastro/">Acessar a página</a>
+</h3>
